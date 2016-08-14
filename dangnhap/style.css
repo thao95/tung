@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:midnightblue;
+    text-align: center;
+}
+.tem{
+    border: none;
+    outline: none;
+    border: 3px solid aqua;
+    padding: 8px;
+    margin-top: 200px;
+}
+#demo2{
+    border: none;
+    outline: none;
+    border: 3px solid aqua;
+    padding: 8px;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+}
+#demo2:hover{
+    opacity: 0.7;
+}
+#demo3{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
