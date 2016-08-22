@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background: #f4f4f4;
+}
+#inp{
+    border: none;
+    outline: none;
+    border: 3px solid aqua;
+    margin: 100px auto;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px ;
+    font: 20px;
+}

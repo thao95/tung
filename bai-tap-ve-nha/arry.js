@@ -7,12 +7,15 @@ var kho=["Sáng dạy muộn thì phí một ngày, tuổi thanh xuân không ho
     ,"You time limited , so don't waste it living someone else's life <br/> - Steve Jobs - "
     ,"Mọi thứ người sẽ không bao giờ ngó đến lòng tự trọng của bạn,điều mà quan tâm chính là thành tựu mà bạn đạt được",
      "Kiên nhẫn là yếu tố quan trọng để thành công.<br/> -Bill Gates-"];
+kho.push("them môt gia tri vao kho");
+tacgia.push("th");
 $('button').click(function () {
-    var x=Math.floor(Math.random()*5);
+    var x=Math.floor(Math.random()*6);
     var y=$('#node2').html(kho[x]);
     $('#node2').html(tacgia[y]);
 })
-var time=0;
+
+/*var time=0;
 var t=0;
 $('#node3').text(time);
 setInterval(function () {
@@ -26,4 +29,4 @@ setInterval(function () {
         time++;
     }
     $('#node3').text(t + " phút " + time + " giây" );
-},1000)
+},1000)*/
