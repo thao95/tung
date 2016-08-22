@@ -27,3 +27,4 @@ setInterval(function () {
     }
     $('#node3').text(t + " phút " + time + " giây" );
 },1000)
+
